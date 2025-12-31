@@ -2,14 +2,13 @@ import { motion } from "framer-motion";
 
 export default function PageWrapper({ children }) {
   return (
-    <motion.main
-      initial={{ opacity: 0, y: 40 }}
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -20 }}
-      transition={{ duration: 0.5, ease: "easeOut" }}
-      style={{ minHeight: "100vh" }}
+      transition={{ duration: 0.4, ease: "easeOut" }}
     >
       {children}
-    </motion.main>
+    </motion.div>
   );
 }
