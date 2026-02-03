@@ -5,23 +5,35 @@ const experiences = [
   {
     year: "2024",
     title: "Web Developer Intern",
-    place: "Company / Institution Name",
-    desc: "Developed web applications using React, REST API, and GitHub. Assisted in debugging, feature development, and UI improvements.",
+    place: "Kickbath",
+    desc: "Developed web applications using PHP, CodeIgniter 4, and GitHub. Assisted in debugging, feature development, and UI improvements.",
   },
   {
-    year: "2023",
+    year: "2025",
     title: "IoT & Web Project",
     place: "Academic Project",
     desc: "Built IoT-based monitoring system using ESP32 with web dashboard integration.",
+  },
+  {
+    year: "2025 - Present",
+    title: "MagangHub Kemnaker",
+    place: "PT Bank Negara Indonesia (Persero) Tbk",
+    desc: ".",
   },
 ];
 
 const education = [
   {
-    year: "2021 – Present",
+    year: "2021 – 2025",
     title: "S1 Teknik Informatika",
     place: "Universitas Muhammadiyah Sukabumi",
     desc: "Focused on Artificial Intelligence, Machine Learning, and Web Development.",
+  },
+  {
+    year: "2022 – 2024",
+    title: "Part of Himpunan Teknik Informatika (HMIF)",
+    place: "Universitas Muhammadiyah Sukabumi",
+    desc: ".",
   },
 ];
 
@@ -81,7 +93,7 @@ export default function Experience() {
             {/* Education */}
             <div>
               <h3 className="text-xl font-semibold mb-8 text-slate-800 dark:text-slate-200">
-                Education
+                Education & Organization
               </h3>
 
               <div className="space-y-8 border-l border-slate-300 dark:border-slate-700 pl-6">

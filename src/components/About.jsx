@@ -9,6 +9,8 @@ export default function About() {
     "Tailwind",
     "Vite",
     "Git",
+    "PHP",
+    "Python",
   ];
 
   return (
@@ -25,17 +27,17 @@ export default function About() {
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div>
           <p className="text-slate-600 dark:text-slate-400 leading-relaxed mb-4">
-            Saya{" "}
+            I'm{" "}
             <span className="font-medium text-slate-900 dark:text-white">
               Farisan Amanuddin
             </span>
-            , seorang Frontend Developer yang fokus pada UI modern dan UX yang
-            nyaman.
+            , a Frontend Developer who focuses on building clean, modern,
+            and accessible user interfaces.
           </p>
 
           <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
-            Terbiasa menggunakan React & Tailwind untuk membangun aplikasi yang
-            rapi, responsif, dan scalable.
+            I enjoy turning ideas into real products using React, Tailwind CSS, and modern
+            frontend tools. I care about good UX, clean code, and scalable components.
           </p>
         </div>
 

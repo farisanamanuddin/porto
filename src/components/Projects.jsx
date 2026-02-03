@@ -7,11 +7,20 @@ const projectsData = [
   {
     id: 1,
     title: "Portfolio Website",
-    description: "Personal portfolio dengan React dan Tailwind.",
+    description: "A personal portfolio website built with React and Tailwind CSS, showcasing selected projects, experience, and contact information.",
     tech: ["React", "Tailwind", "Vite"],
-    image: "https://via.placeholder.com/600x400",
-    github: "#",
-    live: "#",
+    image: "/porto.png",
+    github: "https://github.com/farisanam/my_portfolio",
+    live: "https://farisanam.co.id",
+  },
+  {
+    id: 2,
+    title: "Classification Cat Breeds with VGG16",
+    description: "A web application that classifies different breeds of cats using the VGG16 Convolutional Neural Network architecture, built with Python and Flask.",
+    tech: ["Python", "Flask", "TensorFlow", "Keras", "CNN"],
+    image: "/flask.png",
+    github: "https://github.com/farisanam/",
+    live: "",
   },
 ];
 

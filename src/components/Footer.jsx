@@ -21,14 +21,14 @@ export default function Footer() {
         {/* RIGHT - SOCIAL */}
         <div className="flex gap-6">
           <a
-            href="mailto:farisan@email.com"
+            href="mailto:farisanamanuddin@gmail.com"
             className="text-slate-500 hover:text-slate-900 dark:hover:text-white transition"
           >
             <Mail size={20} />
           </a>
 
           <a
-            href="https://github.com/username"
+            href="https://github.com/farisanam"
             target="_blank"
             className="text-slate-500 hover:text-slate-900 dark:hover:text-white transition"
           >
@@ -36,7 +36,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="https://linkedin.com/in/username"
+            href="https://www.linkedin.com/in/muhammad-farisan-amanuddin-675959381/"
             target="_blank"
             className="text-slate-500 hover:text-slate-900 dark:hover:text-white transition"
           >

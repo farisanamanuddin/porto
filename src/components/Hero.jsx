@@ -24,8 +24,7 @@ export default function Hero() {
 
           {/* Description */}
           <p className="text-base md:text-lg text-slate-500 dark:text-slate-400 mb-10 leading-relaxed">
-            I build modern web applications and AI-powered systems with a focus on
-            clean UI, performance, and real-world problem solving.
+            Frontend Developer focused on building responsive, accessible, and modern web interfaces using React.
           </p>
 
           {/* CTA Buttons */}

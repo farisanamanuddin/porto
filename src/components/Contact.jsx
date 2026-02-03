@@ -23,7 +23,7 @@ export default function Contact() {
       {/* CTA BUTTON */}
       <div className="flex justify-center mb-10">
         <a
-          href="mailto:farisan@email.com"
+          href="mailto:farisanamanuddin@gmail.com"
           className="inline-flex items-center gap-2
           px-6 py-3 rounded-full
           bg-slate-900 text-white
@@ -39,7 +39,7 @@ export default function Contact() {
       {/* SOCIAL LINKS */}
       <div className="flex justify-center gap-6">
         <a
-          href="https://github.com/username"
+          href="https://github.com/farisanam"
           target="_blank"
           className="text-slate-500 hover:text-slate-900 dark:hover:text-white transition"
         >
@@ -47,7 +47,7 @@ export default function Contact() {
         </a>
 
         <a
-          href="https://linkedin.com/in/username"
+          href="https://www.linkedin.com/in/muhammad-farisan-amanuddin-675959381/"
           target="_blank"
           className="text-slate-500 hover:text-slate-900 dark:hover:text-white transition"
         >
